@@ -1,6 +1,18 @@
 === Plugin Name ===
 Contributors: edkelley, kelleypromedia
 
+Modified:
+	Include more icons,
+	have default colored icons;
+	pretty color theme,
+	tel: dialing,
+	sms: messaging,
+	display icon labels
+	
+
+Ed Kelley ( [@kelleypromedia] http://kelleypromedia.com) / [@edkelleyphotography](http://www.edkelleyphotography.com) / [mattbanks.me](http://www.mattbanks.me) )
+
+
 Modified from: simple-phone-menu
 Contributors: nathanrice, studiopress
 
