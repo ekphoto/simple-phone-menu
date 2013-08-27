@@ -1,0 +1,317 @@
+/*@font-face {
+	font-family: 'fontello';
+	src: url("../font/fontello.eot?11995952");
+	src: url("../font/fontello.eot?11995952#iefix") format('embedded-opentype'), url("../font/fontello.woff?11995952") format('woff'), url("../font/fontello.ttf?11995952") format('truetype'), url("../font/fontello.svg?11995952#fontello") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}*/
+@font-face {
+	font-family: 'fontello';
+	src: url("../../simple-phone-menu/font/fontello.eot?8c74d4c2");
+	src: url("../../simple-phone-menu/font/fontello.eot?8c74d4c2#iefix") format('embedded-opentype'),
+url("../../simple-phone-menu/font/fontello.woff?8c74d4c2") format('woff'), 
+url("../../simple-phone-menu/font/fontello.ttf?8c74d4c2") format('truetype'), 
+url("../../simple-phone-menu/font/fontello.svg?8c74d4c2#fontello") format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?11995952#fontello') format('svg');
+  }
+}
+*/
+
+.simple-phone-menu {
+	overflow: hidden;
+}
+
+.simple-phone-menu ul {
+	margin: 0;
+	padding: 0;
+}
+
+.simple-phone-menu ul li {
+	background: none !important;
+	border: none !important;
+	float: left;
+	list-style-type: none !important;
+/*	margin: 0 6px 12px !important;*/
+		margin: 0 4px 1px !important;
+	padding: 0 !important;
+}
+
+.simple-phone-menu ul li a {
+	border: none !important;
+	-moz-box-sizing: content-box;
+	-webkit-box-sizing: content-box;
+	box-sizing: content-box;
+	display: inline-block;
+	font-family: 'fontello';
+	font-style: normal !important;
+	font-variant: normal !important;
+	font-weight: normal !important;
+	line-height: 1em;
+	speak: none;
+	text-align: center;
+	text-decoration: none !important;
+	text-transform: none !important;
+	width: 1em;
+}
+
+.simple-phone-menu ul.aligncenter {
+	text-align: center;
+}
+
+.simple-phone-menu ul.aligncenter li {
+	display: inline-block;
+	float: none;
+}
+
+
+
+
+/* Change Colors of Simple Phone Menu */
+
+.simple-phone-menu .menu-phone a {
+	background-color: #b10303; 
+	background: -moz-linear-gradient(top, #e15d5d, #b10303);
+	background: -ms-linear-gradient(top, #e15d5d, #b10303);
+	background: -webkit-linear-gradient(top, #e15d5d, #b10303);
+	border: 1px solid #b10303 !important;
+}
+.simple-phone-menu .menu-phone  a:hover {
+	background: -moz-linear-gradient(top, #b10303, #e15d5d);
+	background: -ms-linear-gradient(top, #b10303, #e15d5d);
+	background: -webkit-linear-gradient(top, #b10303, #e15d5d);
+}
+
+.simple-phone-menu .menu-email a {
+	background-color: #f9a245; 
+	background: -moz-linear-gradient(top, #fff, #cfcdcc);
+	background: -ms-linear-gradient(top, #fff, #cfcdcc);
+	background: -webkit-linear-gradient(top, #fff, #cfcdcc);
+	border: 1px solid #cfcdcc !important;
+
+}
+.simple-phone-menu .menu-email  a:hover {
+	background: -moz-linear-gradient(top, #cfcdcc, #fff);
+	background: -ms-linear-gradient(top, #cfcdcc, #fff);
+	background: -webkit-linear-gradient(top, #cfcdcc, #fff);
+}
+
+
+.simple-phone-menu .menu-message a {
+	background-color: #dfce15; 
+	background: -moz-linear-gradient(top, #faf5ba, #dfce15);
+	background: -ms-linear-gradient(top, #faf5ba, #dfce15);
+	background: -webkit-linear-gradient(top, #faf5ba, #dfce15);
+	border: 1px solid #dfce15 !important;
+
+}
+.simple-phone-menu .menu-message  a:hover {
+	background: -moz-linear-gradient(top, #dfce15, #faf5ba);
+	background: -ms-linear-gradient(top, #dfce15, #faf5ba);
+	background: -webkit-linear-gradient(top, #dfce15, #faf5ba);
+}
+
+.simple-phone-menu .menu-findus a {
+	background-color: #cdba8b; 
+	background: -moz-linear-gradient(top, #eeddb5, #cdba8b);
+	background: -ms-linear-gradient(top, #eeddb5, #cdba8b);
+	background: -webkit-linear-gradient(top, #eeddb5, #cdba8b);
+	border: 1px solid #cdba8b !important;
+
+}
+.simple-phone-menu .menu-findus  a:hover {
+	background: -moz-linear-gradient(top, #cdba8b, #eeddb5);
+	background: -ms-linear-gradient(top, #cdba8b, #eeddb5);
+	background: -webkit-linear-gradient(top, #cdba8b, #eeddb5);
+}
+
+.simple-phone-menu .menu-facebook a {
+	background-color: #2b4170;
+	background: -moz-linear-gradient(top, #95ade0, #2b4170);
+	background: -ms-linear-gradient(top, #95ade0, #2b4170);
+	background: -webkit-linear-gradient(top, #95ade0, #2b4170);
+	border: 1px solid #2b4170 !important;
+}
+.simple-phone-menu .menu-facebook a:hover {
+	background: -moz-linear-gradient(top, #536da6, #95ade0);
+	background: -ms-linear-gradient(top, #536da6, #95ade0);
+	background: -webkit-linear-gradient(top, #536da6, #95ade0);
+}
+
+.simple-phone-menu .menu-gplus a {
+	background-color: #c33219; 
+	background: -moz-linear-gradient(top, #f38d81, #c33219);
+	background: -ms-linear-gradient(top, #f38d81, #c33219);
+	background: -webkit-linear-gradient(top, #f38d81, #c33219);
+	border: 1px solid #c33219 !important;
+}
+.simple-phone-menu .menu-gplus  a:hover {
+	background: -moz-linear-gradient(top, #c33219, #f38d81);
+	background: -ms-linear-gradient(top, #c33219, #f38d81);
+	background: -webkit-linear-gradient(top, #c33219, #f38d81);
+}
+
+.simple-phone-menu .menu-instagram a {
+	background-color: #326189; 
+	background: -moz-linear-gradient(top, #199fdf, #326189);
+	background: -ms-linear-gradient(top, #70b5f0, #326189);
+	background: -webkit-linear-gradient(top, #70b5f0, #326189);
+	border: 1px solid #326189 !important;
+}
+.simple-phone-menu .menu-instagram  a:hover {
+	background: -moz-linear-gradient(top, #326189, #70b5f0);
+	background: -ms-linear-gradient(top, #326189, #70b5f0);
+	background: -webkit-linear-gradient(top, #326189, #70b5f0);
+}
+
+.simple-phone-menu .menu-linkedin a {
+	background-color: #007ab5; 
+	background: -moz-linear-gradient(top, #3bb7f2, #007ab5);
+	background: -ms-linear-gradient(top, #3bb7f2, #007ab5);
+	background: -webkit-linear-gradient(top, #3bb7f2, #007ab5);
+	border: 1px solid #007ab5 !important;
+}
+.simple-phone-menu .menu-linkedin  a:hover {
+	background: -moz-linear-gradient(top, #007ab5, #3bb7f2);
+	background: -ms-linear-gradient(top, #007ab5, #3bb7f2);
+	background: -webkit-linear-gradient(top, #007ab5, #3bb7f2);
+}
+
+.simple-phone-menu .menu-pinterest a {
+	background-color: #b10303; 
+	background: -moz-linear-gradient(top, #e15d5d, #b10303);
+	background: -ms-linear-gradient(top, #e15d5d, #b10303);
+	background: -webkit-linear-gradient(top, #e15d5d, #b10303);
+	border: 1px solid #b10303 !important;
+}
+.simple-phone-menu .menu-pinterest  a:hover {
+	background: -moz-linear-gradient(top, #b10303, #e15d5d);
+	background: -ms-linear-gradient(top, #b10303, #e15d5d);
+	background: -webkit-linear-gradient(top, #b10303, #e15d5d);
+}
+
+.simple-phone-menu .menu-rss a {
+	background-color: #e2733d; 
+	background: -moz-linear-gradient(top, #facb98, #e2733d);
+	background: -ms-linear-gradient(top, #facb98, #e2733d);
+	background: -webkit-linear-gradient(top, #facb98, #e2733d);
+	border: 1px solid #e2733d !important;
+
+}
+.simple-phone-menu .menu-rss  a:hover {
+	background: -moz-linear-gradient(top, #e2733d, #facb98);
+	background: -ms-linear-gradient(top, #e2733d, #facb98);
+	background: -webkit-linear-gradient(top, #e2733d, #facb98);
+}
+
+.simple-phone-menu .menu-twitter a {
+	background-color: #2a81c3; 
+	background: -moz-linear-gradient(top, #6db1e5, #2a81c3);
+	background: -ms-linear-gradient(top, #6db1e5, #2a81c3);
+	background: -webkit-linear-gradient(top, #6db1e5, #2a81c3);
+	border: 1px solid #2a81c3 !important;
+}
+.simple-phone-menu .menu-twitter  a:hover {
+	background: -moz-linear-gradient(top, #2a81c3, #6db1e5);
+	background: -ms-linear-gradient(top, #2a81c3, #6db1e5);
+	background: -webkit-linear-gradient(top, #2a81c3, #6db1e5);
+}
+
+.simple-phone-menu .menu-youtube a {
+	background-color: #62080a; 
+	background: -moz-linear-gradient(top, #ad1f1b, #62080a);
+	background: -ms-linear-gradient(top, #ad1f1b, #62080a);
+	background: -webkit-linear-gradient(top, #ad1f1b, #62080a);
+	border: 1px solid #62080a !important;
+}
+.simple-phone-menu .menu-youtube  a:hover {
+	background: -moz-linear-gradient(top, #62080a, #ad1f1b);
+	background: -ms-linear-gradient(top, #62080a, #ad1f1b);
+	background: -webkit-linear-gradient(top, #62080a, #ad1f1b);
+}
+
+.simple-phone-menu .menu-dribble a {
+	background-color: #c93764; 
+	background: -moz-linear-gradient(top, #ea4c89, #c93764);
+	background: -ms-linear-gradient(top, #ea4c89, #c93764);
+	background: -webkit-linear-gradient(top, #ea4c89, #c93764);
+	border: 1px solid #c93764 !important;
+}
+.simple-phone-menu .menu-dribble  a:hover {
+	background: -moz-linear-gradient(top, #c93764, #ea4c89);
+	background: -ms-linear-gradient(top, #c93764, #ea4c89);
+	background: -webkit-linear-gradient(top, #c93764, #ea4c89);
+}
+
+.simple-phone-menu .menu-flickr a {
+	background-color: #1673ec; 
+	background: -moz-linear-gradient(top, #f70482, #1673ec);
+	background: -ms-linear-gradient(top, #f70482, #1673ec);
+	background: -webkit-linear-gradient(top, #f70482, #1673ec);
+	border: 1px solid #1673ec !important;
+}
+.simple-phone-menu .menu-flickr  a:hover {
+	background: -moz-linear-gradient(top, #1673ec, #f70482);
+	background: -ms-linear-gradient(top, #1673ec, #f70482);
+	background: -webkit-linear-gradient(top, #1673ec, #f70482);
+}
+
+.simple-phone-menu .menu-github a {
+	background-color: #727071; 
+	background: -moz-linear-gradient(top, #a8a7a7, #727071);
+	background: -ms-linear-gradient(top, #a8a7a7, #727071);
+	background: -webkit-linear-gradient(top, #a8a7a7, #727071);
+	border: 1px solid #727071 !important;
+}
+.simple-phone-menu .menu-github  a:hover {
+	background: -moz-linear-gradient(top, #727071, #a8a7a7);
+	background: -ms-linear-gradient(top, #727071, #a8a7a7);
+	background: -webkit-linear-gradient(top, #727071, #a8a7a7);
+}
+
+.simple-phone-menu .menu-stumbleupon a {
+	background-color: #005e80; 
+	background: -moz-linear-gradient(top, #69e897, #005e80);
+	background: -ms-linear-gradient(top, #69e897, #005e80);
+	background: -webkit-linear-gradient(top, #69e897, #005e80);
+	border: 1px solid #005e80 !important;
+}
+.simple-phone-menu .menu-stumbleupon  a:hover {
+	background: -moz-linear-gradient(top, #005e80, #69e897);
+	background: -ms-linear-gradient(top, #005e80, #69e897);
+	background: -webkit-linear-gradient(top, #005e80, #69e897);
+}
+
+.simple-phone-menu .menu-vimeo a {
+	background-color: #005e80; 
+	background: -moz-linear-gradient(top, #3ba0c6, #005e80);
+	background: -ms-linear-gradient(top, #3ba0c6, #005e80);
+	background: -webkit-linear-gradient(top, #3ba0c6, #005e80);
+	border: 1px solid #005e80 !important;
+}
+.simple-phone-menu .menu-vimeo a:hover {
+	background: -moz-linear-gradient(top, #005e80, #3ba0c6);
+	background: -ms-linear-gradient(top, #005e80, #3ba0c6);
+	background: -webkit-linear-gradient(top, #005e80, #3ba0c6);
+}
+
+.simple-phone-menu .menu-tumblr a {
+	background-color: #2c4762; 
+	background: -moz-linear-gradient(top, #4f79a2, #2c4762);
+	background: -ms-linear-gradient(top, #4f79a2, #2c4762);
+	background: -webkit-linear-gradient(top, #4f79a2, #2c4762);
+	border: 1px solid #2c4762 !important;
+}
+.simple-phone-menu .menu-tumblr a:hover {
+	background: -moz-linear-gradient(top, #2c4762, #4f79a2);
+	background: -ms-linear-gradient(top, #2c4762, #4f79a2);
+	background: -webkit-linear-gradient(top, #2c4762, #4f79a2);
+}
