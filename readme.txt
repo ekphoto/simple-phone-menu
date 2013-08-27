@@ -10,7 +10,7 @@ Modified:
 	display icon labels
 	
 
-Ed Kelley ( [@kelleypromedia] http://kelleypromedia.com) / [@edkelleyphotography](http://www.edkelleyphotography.com) / [mattbanks.me](http://www.mattbanks.me) )
+Ed Kelley ( [@kelleypromedia] http://kelleypromedia.com) / [@edkelleyphotography](http://www.edkelleyphotography.com))
 
 
 Modified from: simple-phone-menu
